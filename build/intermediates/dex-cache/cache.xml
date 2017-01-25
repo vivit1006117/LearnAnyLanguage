@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kvivek/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_4aad95a586fb048ff2a2f01ec15c8d0520344328/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_679058a126480bda47ae1eb3315e17583c1c130a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5c26231bc8513793a94d4432d4486b7aeabe3950">
+        <dex dex="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6867a0e4a9325eb199ec50d57d88b356c1594a62/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_c1a330e5da4812e47623341827720a9cb4f9f833/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_c07b530c235ed58a533209e1bdccb5d2cfa0f621/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_0d7657f0f0644e5ca1cbc8a59dbf3ca11e77caf6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_a535fec0c9d29820326fda784fb3233baea513cc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_28a9ae90b49d5b3c58b639276ca7b8741a485a83/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_ef70fca024c55945705a5ee34d6c1c3d58794c52/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6d023ce65bcd7f962578ff6c738137e80aed73a3">
+        <dex dex="/Users/kvivek/LearnAnyLanguage/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1e781fb0cbf7701493d1f258bd0ed396714758db/classes.dex" />
+    </item>
+
+</items>
