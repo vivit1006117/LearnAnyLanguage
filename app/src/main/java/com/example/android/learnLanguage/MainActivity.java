@@ -6,6 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.android.learnLanguage.commonWords.ColorsActivity;
+import com.example.android.learnLanguage.commonWords.FamilyActivity;
+import com.example.android.learnLanguage.commonWords.NumbersActivity;
+import com.example.android.learnLanguage.commonWords.PhrasesActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

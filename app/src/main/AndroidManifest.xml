@@ -30,7 +30,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.learnLanguage.NumbersActivity"
+            android:name=".commonWords.NumbersActivity"
             android:label="@string/category_numbers"
             android:parentActivityName="com.example.android.learnLanguage.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -39,7 +39,7 @@
                 android:value="com.example.android.learnLanguage.MainActivity"/>
         </activity>
         <activity
-            android:name="com.example.android.learnLanguage.FamilyActivity"
+            android:name=".commonWords.FamilyActivity"
             android:label="@string/category_family"
             android:parentActivityName="com.example.android.learnLanguage.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -48,7 +48,7 @@
                 android:value="com.example.android.learnLanguage.MainActivity"/>
         </activity>
         <activity
-            android:name="com.example.android.learnLanguage.ColorsActivity"
+            android:name=".commonWords.ColorsActivity"
             android:label="@string/category_colors"
             android:parentActivityName="com.example.android.learnLanguage.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -57,7 +57,7 @@
                 android:value="com.example.android.learnLanguage.MainActivity"/>
         </activity>
         <activity
-            android:name="com.example.android.learnLanguage.PhrasesActivity"
+            android:name=".commonWords.PhrasesActivity"
             android:label="@string/category_phrases"
             android:parentActivityName="com.example.android.learnLanguage.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->

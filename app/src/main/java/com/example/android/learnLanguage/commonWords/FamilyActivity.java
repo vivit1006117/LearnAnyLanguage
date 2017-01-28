@@ -13,10 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.learnLanguage;
+package com.example.android.learnLanguage.commonWords;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.android.learnLanguage.R;
 
 public class FamilyActivity extends AppCompatActivity {
 

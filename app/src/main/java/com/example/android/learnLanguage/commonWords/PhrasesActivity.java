@@ -13,16 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.learnLanguage;
+package com.example.android.learnLanguage.commonWords;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ColorsActivity extends AppCompatActivity {
+import com.example.android.learnLanguage.R;
+
+public class PhrasesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_colors);
+        setContentView(R.layout.activity_phrases);
     }
 }
