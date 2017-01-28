@@ -2,7 +2,9 @@ package com.example.android.learnLanguage;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -25,15 +27,11 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("nine");
         words.add("ten");
 
-        LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
-        for (String word : words){
-            addView(word, rootView);
-        }
-    }
+        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, words);
 
-    private void addView(String word, LinearLayout rootView) {
-        TextView wordView  = new TextView(this);
-        wordView.setText(word);
-        rootView.addView(wordView);
+        ListView listView = (ListView) findViewById(R.id.list);
+
+        assert listView != null;
+        listView.setAdapter(itemsAdapter);
     }
 }
