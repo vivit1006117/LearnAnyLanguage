@@ -1,43 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/list_item_height"
     android:orientation="horizontal">
 
     <ImageView
+        android:id="@+id/related_image"
         android:layout_width="@dimen/list_item_height"
         android:layout_height="@dimen/list_item_height"
-        android:id="@+id/related_image"
-        tools:src="@mipmap/number_one"
-        android:background="#FFF7DA"/>
+        android:background="#FFF7DA"
+        tools:src="@mipmap/number_one" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_vertical"
         android:id="@+id/text_field"
-        android:paddingLeft="16dp"
-        android:orientation="vertical">
+            android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/related_image"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
 
         <TextView
-            android:layout_marginTop="16dp"
             android:id="@+id/to_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="#FFFFFF"
             tools:text="Ondu" />
 
         <TextView
             android:id="@+id/from_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             tools:text="One" />
+
     </LinearLayout>
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/play_icon"
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="16dp"
+        android:src="@android:drawable/ic_media_play" />
+
+</RelativeLayout>
