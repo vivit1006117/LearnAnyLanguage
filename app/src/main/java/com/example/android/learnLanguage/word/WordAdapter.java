@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.android.learnLanguage.R;
@@ -30,7 +29,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         assert listItemView == null;
         listItemView = LayoutInflater.from(getContext()).inflate(R.layout.custom_list_layout, parent, false);
 
-        Word currentAndroidFlavor = getItem(position);
+        final Word currentAndroidFlavor = getItem(position);
 
         ImageView imagePath = (ImageView) listItemView.findViewById(R.id.related_image);
         imagePath.setImageResource(currentAndroidFlavor.getImagePath());

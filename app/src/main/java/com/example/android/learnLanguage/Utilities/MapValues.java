@@ -1,7 +1,10 @@
 package com.example.android.learnLanguage.Utilities;
 
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 
+import com.example.android.learnLanguage.R;
+import com.example.android.learnLanguage.commonWords.ColorsActivity;
 import com.example.android.learnLanguage.word.Word;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
@@ -27,7 +30,7 @@ public class MapValues extends AppCompatActivity {
             e.printStackTrace();
         }
         ArrayList<Word> ss = new ArrayList<>();
-        ss.add(new Word("One", "sdfgd"));
+//        ss.add(new Word("One", "sdfgd", R.mipmap.number_one, MediaPlayer.create(ColorsActivity.class, R.raw.number_one)));
         return ss;
     }
 
@@ -37,7 +40,7 @@ public class MapValues extends AppCompatActivity {
         while (iterator.hasNext()) {
             Map.Entry<String, JsonNode> entry = iterator.next();
             String value = entry.getValue().textValue();
-            words.add(new Word(entry.getKey(), value));
+//            words.add(new Word(entry.getKey(), value, R.mipmap.number_one, R.raw.number_one));
         }
         System.out.println(words.toString());
         return words;
